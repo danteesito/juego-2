@@ -31,6 +31,7 @@
     height: 100%;
     border-radius: 30%;
     margin: 10px;
+    
 }
 
 .contImg1 {
@@ -42,13 +43,6 @@
     margin-bottom: 3%;
 }
 
-.contImg2 {
-    display: flexbox;
-    margin-right: auto;
-    flex-direction: column;
-    row-gap: 5%;
-    margin-top: 3%;
-}
 
 .footer {
     background-color: #0011ff;
@@ -76,6 +70,7 @@
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
+    margin-right: 200%;
 }
 
 .counters {
@@ -89,6 +84,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 50%; /* Modifica este valor para ajustar el margen */
-    margin-top: 30%;
+    margin-top: 40%;
+}
+.img-clicked {
+    opacity: 0.3;
 }

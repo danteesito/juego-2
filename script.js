@@ -28,15 +28,35 @@ function updateCounters() {
 
 img1.addEventListener("click", function ()  {
     aux = aux + feliz1;
+    img1.classList.add("img-clicked");
+    setTimeout(function() {
+        img1.classList.remove("img-clicked");
+    }, 1000);
+
 });
 img2.addEventListener("click", function ()  {
     aux = aux + triste1;
+    img2.classList.add("img-clicked");
+    setTimeout(function() {
+        img2.classList.remove("img-clicked");
+    }, 1000);
+
 });
 img3.addEventListener("click", function ()  {
     aux = aux + enojado1;
+    img3.classList.add("img-clicked");
+    setTimeout(function() {
+        img3.classList.remove("img-clicked");
+    }, 1000);
+
 });
 img4.addEventListener("click", function ()  {
     aux = aux + sorprendido1;
+    img4.classList.add("img-clicked");
+    setTimeout(function() {
+        img4.classList.remove("img-clicked");
+    }, 1000);
+
 });
 
 text1.addEventListener("click", function ()  {
